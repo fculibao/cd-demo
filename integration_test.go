@@ -12,7 +12,7 @@ import (
 
 func TestIntegration(t *testing.T) {
 	cases := []struct{ question, reply string }{
-		{"ping", "pong0"},
+		{"ping", "pong"},
 		{"hi", "holla"},
 	}
 
